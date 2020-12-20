@@ -1,5 +1,6 @@
 _ext_.__onload__ = function(form) {
     var pk = _.path("_.shareppy.product_request.logic", true);
+    console.log("This is a comment");
     /*	
         form.toggle(['-acoount_debit_pap', '-pagaduria_code','-calc_other_titular']);
         form.toggle(['-place_collection','-collection_day','-collect_day']);
